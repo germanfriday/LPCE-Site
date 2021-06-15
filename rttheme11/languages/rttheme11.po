@@ -1,0 +1,457 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RT-Theme 11\n"
+"POT-Creation-Date: 2012-09-27 04:12+0200\n"
+"PO-Revision-Date: 2012-09-27 04:12+0200\n"
+"Last-Translator: Tolga Can <ftolgacan@gmail.com>\n"
+"Language-Team: RT-Themes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-KeywordsList: _;__;_x;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:34
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+
+#: comments.php:4
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:22
+msgid "One Response to"
+msgstr ""
+
+#: comments.php:24
+#, php-format
+msgid "%s Responses to"
+msgstr ""
+
+#: comments.php:32 comments.php:61
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:33 comments.php:62
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:85
+msgid "top"
+msgstr ""
+
+#: comments.php:91
+msgid "Name"
+msgstr ""
+
+#: comments.php:92
+msgid "Email"
+msgstr ""
+
+#: comments.php:93
+msgid "Website"
+msgstr ""
+
+#: comments.php:126
+msgid "Comment"
+msgstr ""
+
+#: comments.php:131
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:132
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:133
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:134
+msgid "Post Comment"
+msgstr ""
+
+#: full_width_page.php:41 page.php:131 single.php:94
+msgid "Sorry, no page found."
+msgstr ""
+
+#: functions.php:97
+msgid "RT Theme Main Navigation"
+msgstr ""
+
+#: functions.php:98
+msgid "RT Theme Footer Navigation"
+msgstr ""
+
+#: functions.php:284 portfolio_loop.php:87
+#: rttheme_options/widgets/rt-theme-slider-widget.php:41
+#: rttheme_options/widgets/rt-theme-slider-widget.php:54
+msgid "read more"
+msgstr ""
+
+#: functions.php:354
+msgid "SEARCH"
+msgstr ""
+
+#: loop.php:67 single.php:79
+msgid "On"
+msgstr ""
+
+#: loop.php:68 single.php:80
+msgid "posted in:"
+msgstr ""
+
+#: loop.php:69 single.php:81
+msgid "by"
+msgstr ""
+
+#: loop.php:73
+msgid "0 Comment"
+msgstr ""
+
+#: loop.php:73
+msgid "1 Comment"
+msgstr ""
+
+#: loop.php:73
+msgid "% Comments"
+msgstr ""
+
+#: loop.php:103
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:26
+msgid "Sub Menu"
+msgstr ""
+
+#: sidebar.php:80 functions/rt_custom_posts.php:89
+msgid "Product Categories"
+msgstr ""
+
+#: sidebar.php:128 functions/rt_custom_posts.php:37
+msgid "Portfolio Categories"
+msgstr ""
+
+#: sidebar.php:157
+msgid "Blog Categories"
+msgstr ""
+
+#: single-products.php:92
+msgid "General Info"
+msgstr ""
+
+#: single-products.php:133
+msgid "Product Video"
+msgstr ""
+
+#: single-products.php:156
+msgid "Product Photos"
+msgstr ""
+
+#: single-products.php:195
+msgid "Documents"
+msgstr ""
+
+#: single-products.php:199
+msgid "Donwload Charts"
+msgstr ""
+
+#: single-products.php:200
+msgid "Download Excel File"
+msgstr ""
+
+#: single-products.php:201
+msgid "Download PDF File"
+msgstr ""
+
+#: single-products.php:202
+msgid "Download Word File"
+msgstr ""
+
+#: single-products.php:245
+msgid "Related Products"
+msgstr ""
+
+#: functions/rt_breadcrumb.php:10
+msgid "Home"
+msgstr ""
+
+#: functions/rt_comments.php:33
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions/rt_comments.php:33
+msgid "(Edit)"
+msgstr ""
+
+#: functions/rt_custom_posts.php:10
+msgid "Portfolio"
+msgstr ""
+
+#: functions/rt_custom_posts.php:11
+msgid "portfolio"
+msgstr ""
+
+#: functions/rt_custom_posts.php:12 functions/rt_custom_posts.php:64
+msgid "Add New"
+msgstr ""
+
+#: functions/rt_custom_posts.php:13
+msgid "Add New portfolio item"
+msgstr ""
+
+#: functions/rt_custom_posts.php:14
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: functions/rt_custom_posts.php:15
+msgid "New Portfolio Item"
+msgstr ""
+
+#: functions/rt_custom_posts.php:16
+msgid "View Portfolio Item"
+msgstr ""
+
+#: functions/rt_custom_posts.php:17
+msgid "Search Portfolio Item"
+msgstr ""
+
+#: functions/rt_custom_posts.php:18
+msgid "No portfolio item found"
+msgstr ""
+
+#: functions/rt_custom_posts.php:19
+msgid "No portfolio item found in Trash"
+msgstr ""
+
+#: functions/rt_custom_posts.php:38
+msgid "Portfolio Category"
+msgstr ""
+
+#: functions/rt_custom_posts.php:39
+msgid "Search Portfolio Category"
+msgstr ""
+
+#: functions/rt_custom_posts.php:40
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: functions/rt_custom_posts.php:41
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: functions/rt_custom_posts.php:42
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: functions/rt_custom_posts.php:43
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: functions/rt_custom_posts.php:44
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: functions/rt_custom_posts.php:45
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: functions/rt_custom_posts.php:46
+msgid "New Genre Portfolio Category"
+msgstr ""
+
+#: functions/rt_custom_posts.php:62
+msgid "Products"
+msgstr ""
+
+#: functions/rt_custom_posts.php:63
+msgid "product"
+msgstr ""
+
+#: functions/rt_custom_posts.php:65
+msgid "Add New Product"
+msgstr ""
+
+#: functions/rt_custom_posts.php:66
+msgid "Edit Product"
+msgstr ""
+
+#: functions/rt_custom_posts.php:67
+msgid "New Product"
+msgstr ""
+
+#: functions/rt_custom_posts.php:68
+msgid "View Product"
+msgstr ""
+
+#: functions/rt_custom_posts.php:69
+msgid "Search Product"
+msgstr ""
+
+#: functions/rt_custom_posts.php:70
+msgid "No product found"
+msgstr ""
+
+#: functions/rt_custom_posts.php:71
+msgid "No product found in Trash"
+msgstr ""
+
+#: functions/rt_custom_posts.php:90
+msgid "Product Category"
+msgstr ""
+
+#: functions/rt_custom_posts.php:91
+msgid "Search Product Category"
+msgstr ""
+
+#: functions/rt_custom_posts.php:92
+msgid "All Product Categories"
+msgstr ""
+
+#: functions/rt_custom_posts.php:93
+msgid "Parent Product Category"
+msgstr ""
+
+#: functions/rt_custom_posts.php:94
+msgid "Parent Product Category:"
+msgstr ""
+
+#: functions/rt_custom_posts.php:95
+msgid "Edit Product Category"
+msgstr ""
+
+#: functions/rt_custom_posts.php:96
+msgid "Update Product Category"
+msgstr ""
+
+#: functions/rt_custom_posts.php:97
+msgid "Add New Product Category"
+msgstr ""
+
+#: functions/rt_custom_posts.php:98
+msgid "New Genre Product Category"
+msgstr ""
+
+#: functions/rt_shortcodes.php:411
+msgid "Your name: (*)"
+msgstr ""
+
+#: functions/rt_shortcodes.php:412
+msgid "Your Email: (*)"
+msgstr ""
+
+#: functions/rt_shortcodes.php:413
+msgid "Phone Number: (*)"
+msgstr ""
+
+#: functions/rt_shortcodes.php:414
+msgid "Company Name:"
+msgstr ""
+
+#: functions/rt_shortcodes.php:415
+msgid "Company URL:"
+msgstr ""
+
+#: functions/rt_shortcodes.php:416
+msgid "Your message: (*)"
+msgstr ""
+
+#: functions/rt_shortcodes.php:421
+msgid "Thanks"
+msgstr ""
+
+#: functions/rt_shortcodes.php:422
+msgid "Your email was successfully sent. We will be in touch soon."
+msgstr ""
+
+#: functions/rt_shortcodes.php:423
+msgid "There was an error submitting the form."
+msgstr ""
+
+#: functions/rt_shortcodes.php:424
+msgid "Please enter a valid email address!"
+msgstr ""
+
+#: functions/rt_shortcodes.php:426
+msgid "Send"
+msgstr ""
+
+#: rttheme_options/controlpanel.php:122
+msgid "Customization"
+msgstr ""
+
+#: rttheme_options/controlpanel.php:127
+msgid "Custom CSS Codes"
+msgstr ""
+
+#: rttheme_options/controlpanel.php:128
+msgid ""
+"Paste your css codes. Do not include &lt;stlye&gt;&lt;/stlye&gt; tags or any "
+"html tag in this field."
+msgstr ""
+
+#: rttheme_options/widgets/rt-theme-box-widget.php:265
+#: rttheme_options/widgets/rt-theme-news-widget.php:190
+#: rttheme_options/widgets/rt-theme-slider-widget.php:185
+msgid "Title:"
+msgstr ""
+
+#: rttheme_options/widgets/rt-theme-box-widget.php:266
+#: rttheme_options/widgets/rt-theme-slider-widget.php:186
+msgid "Link (URL):"
+msgstr ""
+
+#: rttheme_options/widgets/rt-theme-box-widget.php:267
+#: rttheme_options/widgets/rt-theme-slider-widget.php:193
+msgid "Text:"
+msgstr ""
+
+#: rttheme_options/widgets/rt-theme-box-widget.php:273
+msgid "Image:"
+msgstr ""
+
+#: rttheme_options/widgets/rt-theme-box-widget.php:278
+msgid "Link text (e.g. 'read more'):"
+msgstr ""
+
+#: rttheme_options/widgets/rt-theme-news-widget.php:204
+msgid "Hide Dates:"
+msgstr ""
+
+#: rttheme_options/widgets/rt-theme-news-widget.php:206
+msgid "Number Posts (default: '10'):"
+msgstr ""
+
+#: rttheme_options/widgets/rt-theme-news-widget.php:208
+msgid "Link text (default: 'read more'):"
+msgstr ""
+
+#: rttheme_options/widgets/rt-theme-slider-widget.php:187
+msgid "Link text (i.e. 'read more'):"
+msgstr ""
+
+#: rttheme_options/widgets/rt-theme-slider-widget.php:192
+msgid "Second Title:"
+msgstr ""
+
+#: rttheme_options/widgets/rt-theme-slider-widget.php:196
+msgid "Image For Slider:"
+msgstr ""

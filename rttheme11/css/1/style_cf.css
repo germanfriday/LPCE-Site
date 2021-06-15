@@ -1,0 +1,547 @@
+/*
+    File Name: style.css
+*/
+ 
+
+/* body */
+    body {
+	background:url(../../images/1/background_body.gif) center top;
+	color:#777777;
+    }
+    
+/* Layout general*/
+    #container{ 
+	background:#fff; 
+    }
+    
+    /* header */
+    #header{
+	background:url(../../images/1/background.gif) left bottom repeat-x;
+	border:1px solid #fff;
+    }
+
+    /*content wrapper*/
+    .content{
+	background: url(../../images/1/background.gif) 700px top repeat-y;
+    }
+
+/* Navigation */
+
+
+    #navigation ul{
+	background:url(../../images/1/menu_back.png);
+    }
+    
+    #navigation a{
+	background:url(../../images/1/background.gif) left repeat-y;
+	color:#000;	
+    }
+    
+    #navigation li ul li a{
+	background:url(../../images/1/background.gif) left repeat-y;
+    }
+
+    #navigation .current_page_item, #navigation .current-page-ancestor, #navigation .current-menu-ancestor, #navigation .current-menu-item{
+	border-bottom:4px solid #269bc6;
+    }    
+    
+    #navigation a:hover{
+	color: #269bc6;
+    }
+ 
+    #navigation ul li a:hover{
+	border-left:4px solid #269bc6;
+	background:url(../../images/1/background.gif) -200px -200px no-repeat;
+    }
+
+    #navigation li:hover{
+	border-bottom:4px solid #269bc6;
+    }
+
+/* lines */
+
+    .line{ 
+	background:url(../../images/1/background.gif) left top repeat-x; 
+    }
+    
+    /*top link*/
+    a.top{
+	background:#fff;
+	color:#818181; 	
+    }
+
+/*  sub page header */
+    .sub_header{ 
+	background:url(../../images/1/banner_background.png) left bottom  repeat-x;
+    }
+
+    .sub_header h2{ 
+	color:#000; 
+    }
+
+/* search bar */
+    .search_bar{ 
+	background:url(../../images/1/search.gif) left top no-repeat; 
+    }
+    
+    .search_bar form input{ 
+	color:#818181; 
+    }
+    
+    
+/* Home Page Slider */
+
+    /* Wrappers */
+    #slider_area{
+	background:#fff;  
+    }
+        
+    /* Slides */
+    .slide{ 
+	background:#fff; 
+    }
+
+    /* Slider sub title */
+    .slide b.subtitle{
+	color:#262626; 
+    }
+
+    /* slider title with links */
+    .slide b.title, .slide b.title a{
+	color:#000 !important;  
+    }    
+
+    .slide b.title a:hover{
+	color:#269bc6 !important;
+    }        	
+        
+    /* slider text */
+    #slider_area .desc{ 
+	color:#818181;
+	background: url(../../images/1/menu_back.png);
+    }
+        
+    #slider_area .desc a{
+	color:#269bc6; 
+    }
+    
+    /* prev and next buttons*/
+    .prev, 
+    .next { 
+	background:#269bc6; 
+    }
+ 
+    .prev:hover, 
+    .next:hover {
+	background:#52C1EA;
+    }
+
+
+/* Sub page slider*/
+    
+    .sub_slider_pager a{ 
+	background:#BCBCBC; 
+    }
+     
+    .sub_slider_pager a.activeSlide, .sub_slider_pager a:hover{
+	background:#269bc6; 
+    }
+
+ 
+/*  Banner bar  */
+    .banner{
+	background:url(../../images/1/banner_background.png) bottom repeat-x;
+	color:#818181; 
+    }
+  
+    a.banner_button{
+	color:#fff; 
+  	background:url(../../images/1/banner_button.png) top  no-repeat;
+    }
+
+     a.banner_button:hover{
+	color:#fff; 
+	background:url(../../images/1/banner_button.png)  0  -48px  no-repeat;
+    }
+
+
+/* Buttons */
+    a.small_button{ 
+	color:#fff; 
+  	background:url(../../images/1/small_button.png) top  no-repeat;
+    }
+
+     a.small_button:hover{
+	color:#fff; 
+	background:url(../../images/1/small_button.png)  0  -28px  no-repeat;
+    } 
+
+ 
+ /* Futured Boxes */
+ 
+    /*  H4 style for futured boxes   */
+    .box.four h4, .box.two h4, .box.one h4{ 
+	background:url(../../images/1/background.gif) bottom left repeat-x;
+    }
+    
+    .box.three h4{ 
+	background:url(../../images/1/background.gif) bottom right repeat-x;
+    }    
+
+    /* Featured box image margins */
+    .box .featured_image{
+	border:1px solid #C3C3C3; 
+    } 
+
+ /* Products */
+ 
+    /*box for products*/
+    .box.products{ 
+	background:url(../../images/1/background.gif) left top repeat-y;
+    } 
+
+    /*price*/
+    span.price { 
+	color:#474747;
+    }
+
+
+    /* Product detail document Icons*/
+    .doc_icons li:hover{
+	background:#F4F4F4;
+    } 
+
+    /* Price Table */
+    table.product_data td.left{ 
+	color:#474747; 
+    }
+    
+    
+/* Blog */
+
+    /* Date and Categories Bar */
+    .dateandcategories{
+	background:url(../../images/1/banner_background.png) left bottom  repeat-x;
+    }
+    
+    /*comments*/
+    .comment{
+	border-left:1px solid #ddd; 
+    }
+
+/* Play and Zoom Icon */    
+    .play{
+	background:#FFFFFF url(../../images/1/play.png) center no-repeat;
+    }
+    
+    .magnifier{
+	background:#FFFFFF url(../../images/1/magnifier.png) center no-repeat;
+    }
+
+
+/* Paging */
+
+    /* Arrow Left */   
+    .paging li.arrowleft a{
+	background:url(../../images/1/arrow_left.png) 9px 6px no-repeat;	
+    }
+        
+    /* Arrow Left Hover State */
+    .paging li.arrowleft a:hover{
+	background:url(../../images/1/arrow_left.png) -12px 6px no-repeat;		
+    }        
+
+    /* Arrow Right  */
+    .paging li.arrowright a{
+	background:url(../../images/1/arrow_right.png) 11px 6px no-repeat;		
+    }
+    
+    /* Arrow Right Hover State */    
+    .paging li.arrowright a:hover{
+	background:url(../../images/1/arrow_right.png) -10px 6px no-repeat;		
+    } 
+
+    /* paging link*/
+    .paging li a, .paging li.active a{
+       color:#a3a3a3;
+       border:1px solid #dddddd;       
+   }
+
+    /* paging mouseover*/
+    .paging li.active a{
+	color:#269bc6;
+	border:1px solid #269bc6;   
+    }
+    
+    .paging li a:hover{ 
+	color:#269bc6;
+	border:1px solid #269bc6;     
+    }
+    
+
+/* Footer */ 
+    
+    /* footer copyright text */
+    #footer .part1{
+	color:#818181; 
+    }
+    
+    /* footer links */
+    #footer  a{ 
+	color:#818181;
+    }
+    #footer  a:hover{ 
+	color:#269bc6;
+    }
+    
+    .part2 ul li{ 
+	background:url(../../images/1/background.gif) left repeat-y;
+    }
+
+    /* Social media icons */
+    #footer .social_media_icons{ 
+	color:#818181;
+    } 
+    
+/* Links */	 
+    a{ 
+	color:#269bc6;
+    }
+    
+    a:hover{ 
+	color:#818181;
+    }
+
+/* Headings*/
+
+    /*	heading colors and links  */
+    h1,h2, h1 a, h2 a{
+	color:#3F3F3F; 
+    }
+    
+    h3, h4,h5,h6, h3 a, h4 a, h5 a, h6 a{
+	color:#535353; 
+    }
+
+    h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover{ 
+	color:#269bc6;
+    }    
+
+/* Highlighted Texts */
+
+    /*Thene default color*/
+    span.htext{
+	color:#fff;
+	background:#269bc6; 	
+    }
+    
+    /*yellow*/
+    span.yellow{
+	color:#000;
+	background:#ffbf00; 
+    }
+
+    /*black*/
+    span.black{
+	color:#fff;
+	background:#000; 	
+    }
+
+    /*red*/
+    span.red{
+	color:#fff;
+	background:#C10101; 	
+    }    
+
+
+/* Lists */
+ 
+    /* Lined lists */
+    #main ul.lined, #main ol.lined{ 
+	background:url(../../images/1/background.gif) top left repeat-x; 
+    }        
+
+    #main ul.lined li, #main ol.lined li{
+	background:url(../../images/1/background.gif) bottom left repeat-x; 
+    } 
+    
+    #main ul.lined ul, #main ol.lined ol{  
+	background:url(../../images/1/background.gif) top left repeat-x;
+    } 
+
+/* Sidebar Menu */ 
+
+    .sidebar .box.four ul.sub_navigation li {
+	background:url(../../images/1/line.gif) right bottom no-repeat;
+    }
+    
+    .sidebar .box.four ul.sub_navigation li.current_page_item {
+	border-left:4px solid #269bc6 !important;
+    }
+
+    .sidebar .box.four ul.sub_navigation li a{
+	color:#5B5B5B;
+    }
+
+    .sidebar .box.four ul.sub_navigation li:hover a{
+	color:#269bc6;
+    }
+
+    .sidebar .box.four ul.sub_navigation li:hover{
+	border-left:4px solid #269bc6 !important;
+    }
+
+
+    /* Second level menu */
+
+    .sidebar .box.four ul.sub_navigation li ul li a{
+	color:#777777 !important; 
+	background:url(../../images/1/arrow.gif) left  6px no-repeat;
+    }
+
+    .sidebar .box.four ul.sub_navigation li ul li:hover{ 
+	border-left:0px solid #269bc6 !important;
+    }
+
+    .sidebar .box.four ul.sub_navigation li ul li a:hover{
+	color:#269bc6 !important; 
+    }    
+    
+/* Tables */
+    table{ 
+	border-right:1px solid #E0E0E0;
+	border-top:1px solid #E0E0E0; 
+    }
+    
+    table th { 
+	background:url(../../images/1/banner_background.png) left bottom  repeat-x; 
+	border-bottom:1px solid #E0E0E0;
+	border-left:1px solid #E0E0E0;	
+    }
+    
+    table tr {
+    }
+    
+    table td { 
+	border-bottom:1px solid #E0E0E0;
+	border-left:1px solid #E0E0E0;	
+    }
+    
+    table tr.dark {
+	background:#F9F9F9;
+    }
+ 
+
+ /* Forms */
+    input, select, textarea{ 
+        color:#696969;
+        border:1px solid #D3D3D3;
+	background:url(../../images/1/banner_background.png) left bottom  repeat-x;
+    } 
+
+    .button{
+	color:#fff; 
+	background:url(../../images/1/small_button.png) top  no-repeat;
+    }
+    
+    .button:hover{ 
+	color:#fff; 
+	background:url(../../images/1/small_button.png)  0  -28px  no-repeat;	
+    }
+    
+/*contact form validation*/
+    #validate_form label{ 
+        color:#606060;
+    }
+    
+    #validate_form label.error {
+        color: red; 
+    }
+    
+    #validate_form .error{
+        color: red;
+        border: 1px solid red;
+    }
+    
+/* Form Messages*/
+    .ok_box{ 
+        border:1px  dashed green;
+        color:green;	
+    }    
+
+    .ok_box h3{ 
+	color:green;
+    }    
+    .error_box, #loader{ 
+        border:1px  dashed red;
+        color:red;	
+    }
+     
+   
+/* Text Elements */
+
+    /* Standart block quote */
+    blockquote { 
+	border-left:4px solid #269bc6;
+	color:#A5A5A5;
+    }
+
+    /* right-side pull quote */
+    blockquote.pullright{ 
+	border-left:4px solid #269bc6;
+    }
+
+    /* left-side pull quote */
+    blockquote.pullleft{ 
+        padding:20px 20px 0 0; 
+	border-right:4px solid #269bc6; 
+    }
+ 
+    code {
+	border:1px solid #E0E0E0;	
+	background:#F2F2F2 url("../../images/1/code.gif") repeat 0px 0px !important;  
+    } 
+
+/*
+    Product Detail Slider
+*/
+
+/*
+	jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider  Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Most common stuff you'll need to change */ 
+	.product-slider { background: #fff;}   
+	
+	/* Arrow styling */
+	.coda-nav-left a, .coda-nav-right a { background: #000; color: #fff;}
+	
+	/* Tab nav */
+	.coda-nav ul li a.current, .coda-nav ul li a:hover {border-left:3px solid #269bc6;color:#269bc6;}
+  
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */ 
+	.coda-nav ul li a {background:url(../../images/1/background.gif) left top repeat-y;color:#8E8E8E;}
+
+
+/* Comments */ 
+    .comment-holder{
+	border:1px solid #ECECEC; 
+    }
+
+/*highligh author comments*/
+    .comment-holder.author{
+	background:url(../../images/1/banner_background.png) left bottom  repeat-x;
+	border:1px solid #F1F1F1;
+    }
+
+    span.comment-meta a{
+	color:#A4A1A3;
+    }
+    
+    .comment-holder .reply{
+	border-top:1px solid #ECECEC;
+	border-left:1px solid #ECECEC;
+    }

@@ -1,0 +1,25 @@
+    .box{
+	overflow:hidden;
+    }
+    
+    #navigation ul{
+	padding-top:0px;
+        top:60px;
+    }
+
+    #navigation li{
+	border-bottom:0px;
+    }
+    
+   .sidebar .box.four{
+	margin:0px 0px 10px 0px !important;
+	padding:0;
+    }
+   
+    #navigation{ 
+	bottom:2px; 
+    }
+    
+    .coda-nav ul {
+	padding: 0 0 20px 0 !important;
+    }
